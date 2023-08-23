@@ -15,7 +15,6 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
 Update (03/05/2021)
 A simulator for transaction data has been released as part of the practical handbook on Machine Learning for Credit Card Fraud Detection - https://fraud-detection-handbook.github.io/fraud-detection-handbook/Chapter_3_GettingStarted/SimulatedDataset.html. We invite all practitioners interested in fraud detection datasets to also check out this data simulator, and the methodologies for credit card fraud detection presented in the book.
 
-# Credit Card Fraud Detection
 This code implements a logistic regression model to detect fraudulent credit card transactions.
 
 # Dataset
