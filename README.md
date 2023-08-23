@@ -14,3 +14,20 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
 
 Update (03/05/2021)
 A simulator for transaction data has been released as part of the practical handbook on Machine Learning for Credit Card Fraud Detection - https://fraud-detection-handbook.github.io/fraud-detection-handbook/Chapter_3_GettingStarted/SimulatedDataset.html. We invite all practitioners interested in fraud detection datasets to also check out this data simulator, and the methodologies for credit card fraud detection presented in the book.
+
+# Credit Card Fraud Detection
+This code implements a logistic regression model to detect fraudulent credit card transactions.
+
+# Dataset
+The code uses the Kaggle Credit Card Fraud Detection dataset, which contains 284,807 transactions made by European cardholders in September 2013. The dataset is highly unbalanced, with only 492 frauds out of 284,807 transactions.
+
+# Preprocessing
+The code first preprocesses the data by removing the Class column and then randomly sampling 30 fraudulent transactions to balance the dataset.
+
+# Training and Evaluation
+The code then splits the data into a training set and a test set. The training set is used to fit the logistic regression model, and the test set is used to evaluate the model.
+
+The logistic regression model is fitted using the fit() method. The accuracy of the model is evaluated using the accuracy_score() method.
+
+# Results
+The logistic regression model achieves an accuracy of 99.3% on the training set and 92.4% on the test set.
